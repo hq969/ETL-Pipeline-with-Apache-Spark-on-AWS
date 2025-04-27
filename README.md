@@ -54,28 +54,28 @@ etl_pipeline_spark_aws/
 
 1. Clone the repository
 
-git clone https://github.com/hq969/ETL-Pipeline-with-Apache-Spark-on-AWS.git
-cd ETL-Pipeline-with-Apache-Spark-on-AWS
+  git clone https://github.com/hq969/ETL-Pipeline-with-Apache-Spark-on-AWS.git
+  cd ETL-Pipeline-with-Apache-Spark-on-AWS
 
 2. Set up environment
    
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+  python3 -m venv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
 
 3. Configure AWS credentials
 
-Create a .env file:
+  Create a .env file:
 
-AWS_ACCESS_KEY_ID=your_access_key
-AWS_SECRET_ACCESS_KEY=your_secret_key
-AWS_REGION=your_region
+  AWS_ACCESS_KEY_ID=your_access_key
+  AWS_SECRET_ACCESS_KEY=your_secret_key
+  AWS_REGION=your_region
 
-Edit the config/config.yaml file to match your S3 paths and database settings.
+  Edit the config/config.yaml file to match your S3 paths and database settings.
 
 4. Run the ETL job
 
-python jobs/run_etl_pipeline.py
+  python jobs/run_etl_pipeline.py
 
 
 ---------------------------------------------------------------------------------------------------------------------------------
@@ -96,7 +96,7 @@ python jobs/run_etl_pipeline.py
 
 ## 👨‍💻 Author
 
-HArsh Sonkar
+Harsh Sonkar
 
 
 
