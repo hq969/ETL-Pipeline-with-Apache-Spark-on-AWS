@@ -1,0 +1,10 @@
+s3:
+  bucket_name: your-bucket
+  raw_path: data/raw/
+  processed_path: data/processed/
+database:
+  host: your-db-host
+  port: 5432
+  user: your-user
+  password: your-password
+  dbname: your-db
