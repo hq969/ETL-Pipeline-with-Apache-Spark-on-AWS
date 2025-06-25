@@ -5,7 +5,7 @@ The pipeline extracts raw data from Amazon S3, transforms it using PySpark, and 
 
 ---
 
-## Prpject
+## 📁 Project
 
 ```
 etl_pipeline_spark_aws/
